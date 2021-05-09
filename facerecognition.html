@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drop down menu</title>
+  <link href="{{ url_for('static', filename='assets/css/style3.css')}}" type="text/css" rel="stylesheet">
+   <!-- Latest compiled and minified CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+
+    
+    <div class="bgimg2">
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+      <div class="container">
+
+        <a href="" class="navbar-brand text-warning font-weight-bold"> Face Recognition </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+
+          <span class="navbar-toggler-icon"> </span>
+
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+          
+
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-warning"> Home </a>
+            </li>
+
+          </ul>
+          
+        </div>
+        
+      </div>
+      
+    </nav>
+
+
+  </div>
+
+  <section class="face-recognition bg-light">
+    <div class="container text-center">
+
+      <h1> Face Recognition Process </h1>  
+          
+    </div>
+
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-6 col-7 d-block m-auto">
+        <div class="card">
+          <img src="{{ url_for('static', filename='assets/img/reco.jpg')}}" class="card-img img-fluid">
+          <div class="card-body ">
+    
+            <p class="card-text text-center"> After the getting face and features extraction the image of any person is saved in a system.</p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-6 col-7 d-block m-auto">
+        <div class="card">
+          <img src="{{ url_for('static', filename='assets/img/aaa.jpg')}}" class="card-img img-fluid">
+          <div class="card-body ">
+            
+            <p class="card-text text-center"> In the part of face recognition. Those faces that are saved in the system. System automatically write the name on the top of the image block.</p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+
+  <footer class="footer">
+
+    <h6 class="container text-center"> copyright @ 2020, Design by Meerab Azeem </h6>
+    
+  </footer>
+
+</body>
+</html>

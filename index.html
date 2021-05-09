@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drop down menu</title>
+	<link href="{{ url_for('static', filename='assets/css/style.css')}}" type="text/css" rel="stylesheet">
+	 <!-- Latest compiled and minified CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="gettingface.html" type="text/css" rel="stylesheet" >
+
+
+
+</head>
+<body>
+
+    
+    <div class="bgimg">
+		
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+			<div class="container">
+				<a href="" class="navbar-brand text-warning font-weight-bold"> Autonomous Attendence Management System </a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="collapsenavbar">
+          
+
+			  <ul class="navbar-nav ml-auto">
+
+			  	<li class="nav-item">
+                  <a href="gettingface.html" class="nav-link text-warning"> Getting Faces</a>
+                </li>
+            
+                <li class="nav-item">
+                  <a href="featuresextraction.html" class="nav-link text-warning"> Features Extraction</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="facerecognition.html" class="nav-link text-warning"> Face Recognition</a>
+                </li>
+               
+
+              </ul>
+					
+				</div>
+				
+			</div>
+			
+		</nav>
+
+		<div class="container text-center text-black headerset">
+			<h2> Autonomous Attendence Management System! </h2>
+			
+			<button class="btn btn-warning text-white btn-lg"> SUBSCRIBE </button>
+		</div>
+
+
+	</div>
+
+
+<!--
+/////////////////////////portfolio//////////////////-->
+  <section class="portfolio bg-light">
+
+  	<div class="container text-center">
+  		<h1> PORTFOLIO </h1>
+  		<P> It shows our work that we complete during the time of project! <br> It shows our work that we complete during the time of project!</P>
+
+  		<div class="row">
+  			
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/08-pro7.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > Datasets </h2>
+  						<p class="card-text"> Traning & Testing </p>
+  					</div>
+  					
+  				</div>
+  				
+  			</div>
+
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/09-pro8.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > Coding </h2>
+  						<p class="card-text"> Traning & Testing </p>
+  					</div>
+  					
+  				</div>
+
+  			</div>
+
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/10-pro9.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > Testing </h2>
+  						<p class="card-text"> Traning & Testing </p>
+  					</div>
+  					
+  				</div>
+  				
+  			</div>	
+
+  		</div>
+
+  		<div class="row">
+  			
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/01-pro.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > Features </h2>
+  						<p class="card-text"> Traning & Testing </p>
+  					</div>
+  					
+  				</div>
+  				
+  			</div>
+
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/03-pro2.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > Applying </h2>
+  						<p class="card-text"> Traning & Testing </p>
+  					</div>
+  					
+  				</div>
+
+  			</div>
+
+  			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+  				<div class="card">
+  					<img src="{{ url_for('static', filename='assets/img/portfolio/02-pro1.jpg')}}" class="card-img img-fluid">
+  					<div class="card-body">
+  						<h2 class="card-title" > software completion </h2>
+  						<p class="card-text"> Testing in public </p>
+  					</div>
+  					
+  				</div>
+  				
+  			</div>	
+
+  		</div>
+  		
+  	</div>
+  	  
+
+  </section>
+
+
+  <section class="ourteam">
+  	<div class="container text-center">
+  		<h1> OUR AMAZING TEAM </h1>
+  		<P> All Members Are So Hard Working </P>
+
+  		<div class="row teamsetting">
+  			<div class="col-lg-4 col-md-4 col-sm-10 col-12  d-block m-auto">
+  				<figure class="figure">
+  					<img src="{{ url_for('static', filename='assets/img/team/2.jpg')}}" class="figure-img img-fluid rounded-circle"
+  					height="250px" width="250">
+  					<figcaption>
+  					<h4> Bootstrap </h4>
+  					<p class="figure-caption"> Lead Designer </p> 
+
+  					</figcaption>
+  					
+  				</figure>
+  			</div>
+  			<div class="col-lg-4 col-md-4 col-sm-10 col-12  d-block m-auto">
+  				<figure class="figure">
+  					<img src="{{ url_for('static', filename='assets/img/team/2.jpg')}}" class="figure-img img-fluid rounded-circle"
+  					height="250px" width="250">
+  					<figcaption>
+  					<h4> Bootstrap </h4>
+  					<p class="figure-caption"> Lead Designer </p> 
+
+  					</figcaption>
+  					
+  				</figure>
+  			</div>
+  			<div class="col-lg-4 col-md-4 col-sm-10 col-12  d-block m-auto">
+  				<figure class="figure">
+  					<img src="{{ url_for('static', filename='assets/img/team/2.jpg')}}" class="figure-img img-fluid rounded-circle"
+  					height="250px" width="250">
+  					<figcaption>
+  					<h4> Bootstrap </h4>
+  					<p class="figure-caption"> Lead Designer </p> 
+
+  					</figcaption>
+  					
+  				</figure>
+  			</div>
+  			
+  		</div>
+
+  	</div>
+  	
+
+  </section>
+
+  <footer class="footer">
+
+  	<h6 class="container text-center"> copyright @ 2020, Design by Meerab Azeem </h6>
+  	
+  </footer>
+
+</body>
+</html>

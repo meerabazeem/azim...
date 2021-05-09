@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drop down menu</title>
+	<link href="{{ url_for('static', filename='assets/css/style1.css')}}" type="text/css" rel="stylesheet">
+	 <!-- Latest compiled and minified CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+
+    
+    <div class="bgimg1">
+    	
+    	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+    		<div class="container">
+
+    			<a href="" class="navbar-brand text-warning font-weight-bold">Getting Face</a>
+
+    			<button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#collapsenavbar">
+    				<span class="navbar-toggler-icon"> </span>
+
+    			</button>
+
+    			<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+          
+
+					<ul class="navbar-nav ml-auto">
+            
+                      <li class="nav-item">
+                      	<a href="index.html" class="nav-link text-warning"> Home </a>
+                      </li>
+                    </ul>
+					
+				</div>
+
+
+    		</div>
+
+    		
+    	</nav>
+		
+	</div>
+
+	<section class="procedure bg-light">
+		<div class="container text-center">
+			<h1> Procedure </h1>	
+        	
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-9 col-8 d-block m-auto">
+				<div class="card">
+					<img src="{{ url_for('static', filename='assets/img/cap.jpg')}}" class="card-img img-fluid">
+					<div class="card-body ">
+						<h2 class="card-title text-center"> Camera open & getting face.</h2>
+						<p class="card-text text-center"> Through this process system take the pictures of a person and save in a separate folder with their name, and same process work for another person.</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+	<footer class="footer">
+
+  	<h6 class="container text-center"> copyright @ 2020, Design by Meerab Azeem </h6>
+  	
+  </footer>
+
+
+</body>
+</html>
